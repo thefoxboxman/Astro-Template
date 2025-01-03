@@ -1,4 +1,6 @@
 ---
+import Social from "../components/Social.astro";
+
 const platform = "github";
 const username = "thefoxboxman";
 ---
@@ -8,14 +10,19 @@ const username = "thefoxboxman";
   <p>
     Learn more about my projects on <a
       href={`https://www.${platform}.com/${username}`}>{platform}</a
-    >!
+    >
   </p>
+
+  <Social platform="twitter" username="astrodotbuild" />
+  <Social platform="github" username="withastro" />
+  <Social platform="youtube" username="astrodotbuild" />
 </footer>
 
+<!-- STYLES -->
 <style>
-  p {
-    border-style: solid;
-    border-color: red;
-    padding: 1rem;
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
   }
 </style>

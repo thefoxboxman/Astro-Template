@@ -1,0 +1,24 @@
+---
+import Navigation from "./Navigation.astro";
+import Hamburger from "./Hamburger.astro";
+
+
+---
+
+<header>
+  <img src="/favicon.svg" width="50" height="60" />
+  <Hamburger />
+  <Navigation />
+</header>
+
+<!-- STYLES -->
+<style>
+  header {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-style: solid;
+    border-color: red;
+  }
+</style>
