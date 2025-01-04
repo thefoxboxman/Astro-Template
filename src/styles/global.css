@@ -166,8 +166,8 @@ body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
-	padding-left: var(--s-2);
-	padding-right: var(--s-1);
+	padding-left: var(--s0);
+	padding-right: var(--s0);
 }
 
 
