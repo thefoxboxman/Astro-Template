@@ -5,8 +5,8 @@ pubDate: 2022-07-01
 description: 'This is the first post of my new Astro blog.'
 author: 'Astro Learner'
 image:
-    url: 'https://docs.astro.build/assets/rose.webp'
-    alt: 'The Astro logo on a dark background with a pink glow.'
+    url: https://plus.unsplash.com/premium_photo-1694475730447-8cb218cf5bc1?q=80&w=2674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    alt: 'Kangaroo Warning Sign beside outback road'
 tags: ["astro", "blogging", "learning in public"]
 ---
 
