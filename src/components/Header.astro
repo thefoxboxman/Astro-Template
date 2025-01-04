@@ -1,11 +1,9 @@
 ---
 import Navigation from "./Navigation.astro";
 import Hamburger from "./Hamburger.astro";
-
-
 ---
 
-<header>
+<header class="box-l">
   <img src="/favicon.svg" width="50" height="60" />
   <Hamburger />
   <Navigation />
@@ -15,9 +13,7 @@ import Hamburger from "./Hamburger.astro";
 <style>
   header {
     display: flex;
-    gap: 1rem;
-    margin-top: 2rem;
-    padding: 1rem;
+    
     border-style: solid;
     border-color: red;
   }
