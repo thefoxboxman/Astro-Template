@@ -89,10 +89,10 @@ select {
 	--s-4: calc(var(--s-3) / var(--ratio)); /* 3.8px */
 	
 	
-	--s1: calc(var(--s0) * var(--ratio)); /* 28.5px  */
-	--s2: calc(var(--s1) * var(--ratio)); /* 42.8px */
-	--s3: calc(var(--s2) * var(--ratio)); /* 64.1px */
-	--s4: calc(var(--s3) * var(--ratio)); /* 96.2px  */
+	--s1: calc(var(--s1) * var(--ratio)); /* 28.5px  */
+	--s2: calc(var(--s2) * var(--ratio)); /* 42.8px */
+	--s3: calc(var(--s3) * var(--ratio)); /* 64.1px */
+	--s4: calc(var(--s4) * var(--ratio)); /* 96.2px  */
 	
 
 	/* Measure - prefered line lenghth   */
@@ -192,6 +192,9 @@ body {
 	--color-dark: #000;
 	color: var(--color-dark);
 	background-color: var(--color-light);
+/* testing only */
+ /* border-style: solid;
+    border-color:green; */
 }
 
 .box-l * {
@@ -247,24 +250,27 @@ body {
 
 .hamburger {
   padding-right: 20px;
+  margin-top: 15px;
   cursor: pointer;
 }
 
 .hamburger .line {
   display: block;
-  width: 40px;
-  height: 5px;
-  margin-bottom: 10px;
-  background-color: #ff9776;
+  
+  width: 30px;
+  height: 4px;
+  margin-bottom: 3px;
+  background-color: var(--clr-primary-400);
 }
 
 
 /* NAV-LINKS */
 .nav-links {
-  width: 100%;
+  width: 25%;
   top: 5rem;
   left: 48px;
-  background-color: #ff9776;
+  color: var(--clr-primary-400);
+  background-color: var(--clr-neutral-100);
   display: none;
   margin: 0;
 }
@@ -272,9 +278,9 @@ body {
 .nav-links a {
   display: block;
   text-align: center;
-  padding: 10px 0;
+  padding: 5px 0;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: var(--s-1);
   font-weight: bold;
   text-transform: uppercase;
 }
