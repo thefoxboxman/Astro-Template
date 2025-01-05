@@ -249,17 +249,17 @@ body {
 /* HAMBURGER */
 
 .hamburger {
-  padding-right: 20px;
-  margin-top: 15px;
+  padding-right: 1.25rem;
+  margin-top: 1rem;
   cursor: pointer;
 }
 
 .hamburger .line {
   display: block;
   
-  width: 30px;
-  height: 4px;
-  margin-bottom: 3px;
+  width: 2rem;
+  height: 0.25rem;
+  margin-bottom: 0.2rem;
   background-color: var(--clr-primary-400);
 }
 
@@ -267,8 +267,8 @@ body {
 /* NAV-LINKS */
 .nav-links {
   width: 25%;
-  top: 5rem;
-  left: 48px;
+  top: .3rem;
+  left: 3rem;
   color: var(--clr-primary-400);
   background-color: var(--clr-neutral-100);
   display: none;
@@ -278,7 +278,7 @@ body {
 .nav-links a {
   display: block;
   text-align: center;
-  padding: 5px 0;
+  padding: .3rem 0;
   text-decoration: none;
   font-size: var(--s-1);
   font-weight: bold;
@@ -287,7 +287,7 @@ body {
 
 .nav-links a:hover,
 .nav-links a:focus {
-  background-color: #ff9776;
+  background-color: var(--clr-neutral-100);
 }
 
 .expanded {
