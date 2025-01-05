@@ -89,10 +89,10 @@ select {
 	--s-4: calc(var(--s-3) / var(--ratio)); /* 3.8px */
 	
 	
-	--s1: calc(var(--s1) * var(--ratio)); /* 28.5px  */
-	--s2: calc(var(--s2) * var(--ratio)); /* 42.8px */
-	--s3: calc(var(--s3) * var(--ratio)); /* 64.1px */
-	--s4: calc(var(--s4) * var(--ratio)); /* 96.2px  */
+	--s1: calc(var(--s0) * var(--ratio)); /* 28.5px  */
+	--s2: calc(var(--s1) * var(--ratio)); /* 42.8px */
+	--s3: calc(var(--s2) * var(--ratio)); /* 64.1px */
+	--s4: calc(var(--s3) * var(--ratio)); /* 96.2px  */
 	
 
 	/* Measure - prefered line lenghth   */
@@ -123,14 +123,14 @@ select {
 
 h1 {
 	font-family: var(--ff-featured);
-	font-size: var(--s3);
+	font-size: var(--s2);
   font-weight: 700;
 	color: var(--clr-accent-100);
 }
 
 h2 {
 	font-family: var(--ff-featured);
-	font-size: var(--s2);
+	font-size: var(--s1);
   font-weight: 500;
 	color: var(--clr-primary-400);
 }
