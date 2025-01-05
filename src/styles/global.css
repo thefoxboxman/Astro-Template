@@ -314,4 +314,7 @@ body {
  }  /*END MEDIA QUERY*/
 
 
-  
+ img {
+width: auto;
+height: auto;
+ } 
